@@ -1,0 +1,3 @@
+# Mock factory in multiple modules
+
+An example project in Android where we reuse mock factory class across different modules
