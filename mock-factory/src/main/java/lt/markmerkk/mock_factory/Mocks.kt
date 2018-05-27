@@ -1,4 +1,4 @@
-package lt.markmerkk
+package lt.markmerkk.mock_factory
 
 import lt.markmerkk.models.Session
 import lt.markmerkk.models.UserSettings

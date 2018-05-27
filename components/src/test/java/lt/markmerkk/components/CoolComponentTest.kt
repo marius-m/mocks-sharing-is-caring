@@ -1,6 +1,6 @@
 package lt.markmerkk.components
 
-import lt.markmerkk.Mocks
+import lt.markmerkk.mock_factory.Mocks
 import org.junit.Assert.*
 import org.junit.Test
 

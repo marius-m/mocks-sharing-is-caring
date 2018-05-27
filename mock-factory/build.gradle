@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
+apply plugin: 'idea'
 
 android {
     compileSdkVersion 27
@@ -26,14 +27,6 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:27.1.1'
-
-    testImplementation 'junit:junit:4.12'
-    testImplementation project(':mock-factory')
-
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-}
-repositories {
-    mavenCentral()
+    implementation project(':models')
+    implementation 'junit:junit:4.12'
 }

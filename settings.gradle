@@ -1,1 +1,1 @@
-include ':app', ':components', ':models'
+include ':app', ':components', ':models', ':mock-factory'
